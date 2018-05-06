@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #ededed;
-    background-image: url("https://en.wikipedia.org/wiki/Graph_paper#/media/File:Graph-paper.svg");
+    /*background: #ededed;*/
+    background-image: url("https://st.depositphotos.com/1032577/1911/i/950/depositphotos_19115755-stock-photo-white-squared-paper-sheet-texture.jpg");
 }
 
 p {
@@ -30,7 +30,6 @@ a, a:hover, a:focus {
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-btn {
