@@ -163,7 +163,7 @@ a.article, a.article:hover {
     }
 }
 @media (min-width: 769px) {
-    #sidebarCollapse span {
+    #sidebarCollapse {
         display: none;
     }
 }
