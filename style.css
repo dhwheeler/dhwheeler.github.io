@@ -161,6 +161,8 @@ a.article, a.article:hover {
     #sidebar.active {
         margin-left: 0;
     }
+}
+@media (min-width: 769px) {
     #sidebarCollapse span {
         display: none;
     }
