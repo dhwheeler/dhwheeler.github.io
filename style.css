@@ -61,7 +61,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar.active {
-    margin-left: -250px;
+    margin-right: -250px;
 }
 
 #sidebar .sidebar-header {
@@ -156,10 +156,10 @@ a.article, a.article:hover {
 ----------------------------------------------------- */
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -250px;
+        margin-right: -250px;
     }
     #sidebar.active {
-        margin-left: 0;
+        margin-right: 0;
     }
 }
 @media (min-width: 769px) {
