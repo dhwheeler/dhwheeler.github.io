@@ -19,7 +19,14 @@
         <div class="wrapper">
             
             <!-- Sidebar Holder -->
-            <nav id="sidebar">
+            <div class="sidenav">
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#clients">Clients</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <!--<nav id="sidebar">
+
                 <div class="sidebar-header">
                     <h3>Bootstrap Sidebar</h3>
                 </div>
@@ -50,12 +57,12 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-            </nav>
+            </nav>-->
 
             <!-- Page Content Holder -->
             <div id="content">
 
-                <nav class="navbar navbar-default">
+                <!--<nav class="navbar navbar-default">
                     <div class="container-fluid">
 
                             <div class="navbar-header">
@@ -65,7 +72,20 @@
                                 </button>
                             </div>
                     </div>
-                </nav>
+                </nav>-->
+                
+                <div class="topnav" id="myTopnav">
+                  <a href="#home" class="active">Home</a>
+                  <a href="#news">News</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#about">About</a>
+                  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+
+                <div style="padding-left:16px">
+                  <h2>Responsive Topnav Example</h2>
+                  <p>Resize the browser window to see how it works.</p>
+                </div>
 
                 <h2>Collapsible Sidebar Using Bootstrap 3</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -96,13 +116,23 @@
          <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
          <!-- Bootstrap Js CDN -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-         <script type="text/javascript">
+    
+         <!--<script type="text/javascript">
              $(document).ready(function () {
                  $('#sidebarCollapse').on('click', function () {
                      $('#sidebar').toggleClass('active');
                  });
              });
-         </script>
+         </script>-->
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        </script>
     </body>
 </html>
