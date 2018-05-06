@@ -10,4 +10,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  border-style:solid;
+  border-width: 2px;
+  padding: 10px;
 }
