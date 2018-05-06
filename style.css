@@ -184,7 +184,7 @@ a.article, a.article:hover {
     #sidebar.active {
         margin-right: 0;
     }*/
-    #sidenav {
+    .sidenav {
         display: none;
     }
     .topnav {
@@ -233,7 +233,7 @@ a.article, a.article:hover {
     #sidebarCollapse {
         display: none;
     }
-    #topnav {
+    .topnav {
         display: none;
     }
 }
