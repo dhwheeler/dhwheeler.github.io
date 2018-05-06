@@ -152,7 +152,7 @@ a.article, a.article:hover {
     position: fixed;
     z-index: 1;
     top: 20px;
-    right: 10px;
+    right: 20px;
     background: transparent;
     overflow-x: hidden;
     padding: 8px 0;
