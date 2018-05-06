@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url("https://www.draftingsuppliesdew.com/resize/images/clearprint/htssheets.jpg");
+    background: #ededed;
+    background-image: url("https://en.wikipedia.org/wiki/Graph_paper#/media/File:Graph-paper.svg");
 }
 
 p {
@@ -25,7 +26,7 @@ a, a:hover, a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: transparent;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
