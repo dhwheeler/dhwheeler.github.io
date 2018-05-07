@@ -1,0 +1,3 @@
+# dhwheeler.github.io
+First time extensively using CSS/HTML. There's probably a lot of mistakes trying to get a template to look how I envision my website... 
+It is inspired from this: https://www.draftingsuppliesdew.com/resize/images/clearprint/htssheets.jpg
